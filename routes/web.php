@@ -57,4 +57,21 @@ Route::get('/arrays', function () {
     return view('seccion5_3');
 });
 
+Route::get('/arraysPractice', function () {
+    return view('seccion5_4');
+});
+
+Route::get('/poo', function () {
+    return view('seccion6');
+});
+
+Route::get('/arrayObject', function () {
+    return view('seccion6_1');
+});
+
+Route::get('/clases', function () {
+    return view('seccion6_2');
+});
+
+
 
