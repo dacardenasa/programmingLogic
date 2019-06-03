@@ -5,8 +5,8 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script type="text/javascript" src="{{asset('js/seccion4_2.js')}}"></script>
-    <title>EStrucutura de Datos If-else</title>
+    <script type="text/javascript" src="{{asset('js/seccion5_3.js')}}"></script>
+    <title>Arrays</title>
 </head>
 <body>
 
