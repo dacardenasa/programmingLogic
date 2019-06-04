@@ -73,5 +73,29 @@ Route::get('/clases', function () {
     return view('seccion6_2');
 });
 
+Route::get('/practica1', function () {
+    return view('seccion7_1');
+});
+
+Route::get('/practica2', function () {
+    return view('seccion7_2');
+});
+
+Route::get('/practica3', function () {
+    return view('seccion7_3');
+});
+
+Route::get('/practica4', function () {
+    return view('seccion7_4');
+});
+
+Route::get('/practica5', function () {
+    return view('seccion7_5');
+});
+
+Route::get('/practica6', function () {
+    return view('seccion7_6');
+});
+
 
 

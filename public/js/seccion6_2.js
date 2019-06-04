@@ -41,6 +41,9 @@ class Carro {
 
 let carro = new Carro('Mazda', 'Sedan', 2);
 
+console.log(carro);
+
+
 
 
 
