@@ -1,8 +1,14 @@
 
-let cadena = "";
 
 for( let i = 1; i <= 5; i++ ) {
-    for( let j = 1; j <= 5; j++ ) {
-            console.log(i*j);
+
+    let cadena = '';
+
+    for(let j = 1; j  <= 5; j++) {
+
+        cadena += j * i.toString() + '     ';
     }
+
+    console.log(cadena);
+
 }
