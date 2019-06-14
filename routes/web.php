@@ -109,4 +109,9 @@ Route::get('/practica9', function () {
     return view('seccion7_9');
 });
 
+Route::get('/helloWorld', function () {
+    return view('seccion8_0');
+});
+
+
 

@@ -19,7 +19,6 @@ function filtrarPorLetra( heroes, letra) {
 
 }
 
-
 let heroes = ['Doom', 'Dr. Strange', 'Hulk', 'She Hulk', 'Spiderman', 'Captain Marvel', 'Antman', 'Dormamu'];
 
 let heroesCon = filtrarPorLetra( heroes, 'S');
