@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c4fd3ab-637e-4e7f-b877-2f911c0777b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/js/seccion8_0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/seccion8_0.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/seccion7_9.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/seccion7_9.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/seccion8_0.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/seccion8_0.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +20,7 @@
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="384">
-              <caret line="112" column="30" lean-forward="true" selection-start-line="112" selection-start-column="30" selection-end-line="112" selection-end-column="30" />
+              <caret line="112" column="30" selection-start-line="112" selection-start-column="30" selection-end-line="112" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -31,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/js/seccion8_0.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="127" selection-start-line="127" selection-end-line="127" />
+            <state relative-caret-position="385">
+              <caret line="204" column="5" lean-forward="true" selection-start-line="204" selection-start-column="5" selection-end-line="204" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -206,7 +203,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -240,6 +236,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -256,13 +253,13 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/js" />
-      <recent name="$PROJECT_DIR$/resources/js" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/js" />
       <recent name="$PROJECT_DIR$/resources/views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/js" />
+      <recent name="$PROJECT_DIR$/resources/js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -300,7 +297,8 @@
       <workItem from="1559601152214" duration="15962000" />
       <workItem from="1559703921719" duration="7008000" />
       <workItem from="1559785565114" duration="1908000" />
-      <workItem from="1560477179580" duration="5254000" />
+      <workItem from="1560477179580" duration="5375000" />
+      <workItem from="1560558913459" duration="4493000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion archivos 4 y 4_2 practica javascript  fundamentos programacion.">
       <created>1559276148492</created>
@@ -320,7 +318,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58206000" />
+    <option name="totallyTimeSpent" value="62820000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -335,7 +333,7 @@
     <frame x="0" y="-1" width="1366" height="768" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4976852" visible="true" weight="0.29924244" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976852" visible="true" weight="0.3037879" />
       <window_info id="Structure" order="1" sideWeight="0.5023148" side_tool="true" weight="0.27651516" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -348,7 +346,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32763976" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49918962" visible="true" weight="0.23291926" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49918962" visible="true" weight="0.23291926" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5008104" side_tool="true" weight="0.23555556" />
       <window_info anchor="bottom" id="TypeScript" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -760,7 +758,7 @@
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
-          <caret line="112" column="30" lean-forward="true" selection-start-line="112" selection-start-column="30" selection-end-line="112" selection-end-column="30" />
+          <caret line="112" column="30" selection-start-line="112" selection-start-column="30" selection-end-line="112" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -773,8 +771,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/seccion8_0.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="127" selection-start-line="127" selection-end-line="127" />
+        <state relative-caret-position="385">
+          <caret line="204" column="5" lean-forward="true" selection-start-line="204" selection-start-column="5" selection-end-line="204" selection-end-column="5" />
         </state>
       </provider>
     </entry>

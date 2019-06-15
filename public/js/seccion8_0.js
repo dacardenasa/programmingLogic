@@ -4,11 +4,11 @@
 
 // 2 Escribe un programa de una sola línea que escriba en la pantalla un texto que diga “Hello World” (document.write).
 
-document.write('Hello World');
+//document.write('Hello World');
 
 // 3 Escribe un programa de una sola línea que escriba en la pantalla el resultado de sumar 3 + 5.
 
-document.write('<br/>' + 3 + 5);
+//document.write('<br/>' + 3 + 5);
 
 // 4 Escribe un programa de dos líneas que pida el nombre del usuario con un prompt y escriba un texto que diga “Hola nombreUsuario”
 
@@ -95,6 +95,8 @@ alert(resultado);
 
 // 9 Escribe un programa que pida una frase y escriba cuantas veces aparece la letra a
 
+/*
+
 function buscarVocal( a ) {
 
     let contador = 0;
@@ -123,5 +125,119 @@ let resultado = buscarVocal( palabra );
 
 alert(resultado);
 
+ */
+
 // 10 Escribe un programa que pida una frase y escriba las vocales que aparecen
+
+/*
+
+function buscarVocales( cadena ) {
+
+    let arrayVocales = ['a', 'e', 'i', 'o' ,'u'];
+
+    let vocalesRepetidas = [];
+
+    for( let i = 0; i <= arrayVocales.length; i++) {
+
+        for( let j = 0; j < cadena.length; j++) {
+
+            if( arrayVocales[i] === cadena[j]) {
+
+                vocalesRepetidas.push(arrayVocales[i]);
+
+            }
+
+        }
+
+    }
+
+    return vocalesRepetidas;
+
+}
+
+let resultado = [];
+
+let cadena = prompt('Ingresa la cadena a analizar:');
+
+resultado = buscarVocales( cadena );
+
+    if(resultado.length > 0) {
+
+        document.write('La cadena ' + cadena + ' contiene: ' + resultado.length + ' vocales: ');
+
+        for (let i = 0; i < resultado.length; i++) {
+
+            document.write('<br/>' + resultado[i]);
+
+        }
+
+    } else {
+
+        document.write('La cadena no contiene vocales');
+
+    }
+
+
+ */
+
+// 12 Escribe un programa que pida una frase y escriba cuántas veces aparecen cada una de las vocales
+
+const arrayVocales = ['a', 'e', 'i', 'o' ,'u'];
+
+let resultado = [];
+
+function buscarVocales( cadena ) {
+
+    let vocalesRepetidas = [];
+
+    for( let i = 0; i <= arrayVocales.length; i++) {
+
+        for( let j = 0; j < cadena.length; j++) {
+
+            if( arrayVocales[i] === cadena[j]) {
+
+                vocalesRepetidas.push(arrayVocales[i]);
+
+            }
+
+        }
+
+    }
+
+    return vocalesRepetidas;
+
+}
+
+function contarVocales( cadena ) {
+
+    if( cadena.length > 0 ) {
+
+        for (let i = 0; i < arrayVocales.length; i++) {
+
+            let contador = 0;
+
+            for (let j = 0; j < cadena.length; j++) {
+
+                if (arrayVocales[i] === cadena[j]) contador = contador + 1;
+
+            }
+
+            if(contador > 0) document.write('<br/> La vocal ' + arrayVocales[i] + ' se repite ' + contador + ' veces');
+
+        }
+
+    } else {
+
+        document.write('La cadena no tiene vocales');
+    }
+
+}
+
+let cadena = prompt('Ingresa la cadena a analizar:');
+
+resultado = buscarVocales(cadena);
+
+document.write('La cadena ' + cadena + ' se repiten las siguientes vocales:');
+
+contarVocales( resultado );
 
