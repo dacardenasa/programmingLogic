@@ -182,6 +182,8 @@ resultado = buscarVocales( cadena );
 
 // 12 Escribe un programa que pida una frase y escriba cuántas veces aparecen cada una de las vocales
 
+/*
+
 const arrayVocales = ['a', 'e', 'i', 'o' ,'u'];
 
 let resultado = [];
@@ -194,11 +196,7 @@ function buscarVocales( cadena ) {
 
         for( let j = 0; j < cadena.length; j++) {
 
-            if( arrayVocales[i] === cadena[j]) {
-
-                vocalesRepetidas.push(arrayVocales[i]);
-
-            }
+            if( arrayVocales[i] === cadena[j]) vocalesRepetidas.push(arrayVocales[i]);
 
         }
 
@@ -216,11 +214,7 @@ function contarVocales( cadena ) {
 
             let contador = 0;
 
-            for (let j = 0; j < cadena.length; j++) {
-
-                if (arrayVocales[i] === cadena[j]) contador = contador + 1;
-
-            }
+            for (let j = 0; j < cadena.length; j++)  if (arrayVocales[i] === cadena[j]) contador = contador + 1;
 
             if(contador > 0) document.write('<br/> La vocal ' + arrayVocales[i] + ' se repite ' + contador + ' veces');
 
@@ -240,4 +234,144 @@ resultado = buscarVocales(cadena);
 document.write('La cadena ' + cadena + ' se repiten las siguientes vocales:');
 
 contarVocales( resultado );
+
+*/
+
+// 13 Escribe un programa que pida un número y nos diga si es divisible por 2, 3, 5 o 7 (sólo hay que comprobar si lo es por uno de los cuatro)
+
+// 14 Añadir al ejercicio anterior que nos diga por cual de los cuatro es divisible (hay que decir todos por los que es divisible)
+
+/*
+
+let numberToDiv = [ 2, 3, 5, 7];
+
+function checkDiv( numero, opcion ) {
+
+    for ( let i = 0; i < numberToDiv.length; i++) {
+
+    if( numero % numberToDiv[i] === 0 ) document.write('<br/>El numero ' + numero + ' es divisible por ' + numberToDiv[i]);
+
+    else document.write('<br/> El numero ' + numero + ' no es divisible por ' + numberToDiv[i]);
+
+    }
+}
+
+let numero = parseInt(prompt('Ingresa un numero por favor'));
+
+let opcion = parseInt(prompt('Ingresa una opcion entre 2, 3, 5 o 7 para verificar si tu numero es divisible por el: '));
+
+document.write('EL numero ' + numero + ' es divisible asi:')
+
+checkDiv( numero, opcion);
+
+ */
+
+// 15 Escribir un programa que escriba en pantalla los divisores de un número dado
+
+/*
+
+function divisores( numero ) {
+
+    let p = numero;
+
+    while ( p > 0 ){
+
+        if( numero % p === 0) {
+
+            document.write(p + ',');
+
+        }
+
+        p = p - 1;
+
+    }
+
+}
+
+let numero = parseInt(prompt('Ingresa un numero para ver sus divisores'));
+
+document.write('Los  divisores  de ' + numero + ' son: ');
+
+divisores( numero );
+
+*/
+
+// 16 Escribir un programa que escriba en pantalla los divisores comunes de dos números dados
+
+function divisores( numero ) {
+
+    let p = numero;
+
+    let arrayNumber  = [];
+
+    while ( p > 0 ){
+
+        if( numero % p === 0) {
+
+            arrayNumber.push(p);
+
+        }
+
+        p = p - 1;
+
+    }
+
+    return arrayNumber;
+
+}
+
+function divisoresComunes( a, b ) {
+
+    let divComunes = [];
+
+    for ( let i = 0; i < a.length; i++) {
+
+        for (let j = 0;  j < b.length; j++ ) {
+
+            if( a[i] === b[j]) {
+
+                divComunes.push(a[i]);
+
+            }
+
+        }
+
+    }
+
+    return divComunes;
+}
+
+function imprimirNumeros( numero ) {
+
+    for( let i = 0; i < numero.length; i++) {
+
+        document.write(numero[i] + ',');
+
+    }
+
+}
+
+let arrayNumber = [];
+
+let arrayNumber2 = [];
+
+let numComunes = [];
+
+let numero = parseInt(prompt('Ingresa un numero: '));
+
+let numero2 = parseInt(prompt('Ingresa el segundo numero: '));
+
+arrayNumber = divisores( numero );
+
+arrayNumber2 = divisores( numero2 );
+
+numComunes = divisoresComunes( arrayNumber, arrayNumber2 );
+
+document.write('Los divisores  comunes de ' + numero + ' y ' + numero2 + ' son: ')
+
+imprimirNumeros( numComunes );
+
+
+
+
 

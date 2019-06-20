@@ -19,7 +19,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
+            <state relative-caret-position="1545">
               <caret line="112" column="30" selection-start-line="112" selection-start-column="30" selection-end-line="112" selection-end-column="30" />
             </state>
           </provider>
@@ -28,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/js/seccion8_0.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="204" column="5" lean-forward="true" selection-start-line="204" selection-start-column="5" selection-end-line="204" selection-end-column="5" />
+            <state relative-caret-position="340">
+              <caret line="371" column="30" lean-forward="true" selection-start-line="371" selection-start-column="30" selection-end-line="371" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -298,7 +298,10 @@
       <workItem from="1559703921719" duration="7008000" />
       <workItem from="1559785565114" duration="1908000" />
       <workItem from="1560477179580" duration="5375000" />
-      <workItem from="1560558913459" duration="4493000" />
+      <workItem from="1560558913459" duration="5564000" />
+      <workItem from="1560728297672" duration="3727000" />
+      <workItem from="1560824704771" duration="4583000" />
+      <workItem from="1560997756135" duration="3699000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion archivos 4 y 4_2 practica javascript  fundamentos programacion.">
       <created>1559276148492</created>
@@ -318,7 +321,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62820000" />
+    <option name="totallyTimeSpent" value="75900000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -333,7 +336,7 @@
     <frame x="0" y="-1" width="1366" height="768" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976852" visible="true" weight="0.3037879" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976852" visible="true" weight="0.3189394" />
       <window_info id="Structure" order="1" sideWeight="0.5023148" side_tool="true" weight="0.27651516" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -757,7 +760,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
+        <state relative-caret-position="1545">
           <caret line="112" column="30" selection-start-line="112" selection-start-column="30" selection-end-line="112" selection-end-column="30" />
         </state>
       </provider>
@@ -771,8 +774,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/seccion8_0.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="204" column="5" lean-forward="true" selection-start-line="204" selection-start-column="5" selection-end-line="204" selection-end-column="5" />
+        <state relative-caret-position="340">
+          <caret line="371" column="30" lean-forward="true" selection-start-line="371" selection-start-column="30" selection-end-line="371" selection-end-column="30" />
         </state>
       </provider>
     </entry>
