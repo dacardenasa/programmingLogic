@@ -28,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/js/seccion8_0.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="371" column="30" lean-forward="true" selection-start-line="371" selection-start-column="30" selection-end-line="371" selection-end-column="30" />
+            <state relative-caret-position="235">
+              <caret line="414" column="26" lean-forward="true" selection-start-line="414" selection-start-column="26" selection-end-line="414" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -203,6 +203,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -236,7 +237,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -301,7 +301,8 @@
       <workItem from="1560558913459" duration="5564000" />
       <workItem from="1560728297672" duration="3727000" />
       <workItem from="1560824704771" duration="4583000" />
-      <workItem from="1560997756135" duration="3699000" />
+      <workItem from="1560997756135" duration="3861000" />
+      <workItem from="1561252308349" duration="535000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion archivos 4 y 4_2 practica javascript  fundamentos programacion.">
       <created>1559276148492</created>
@@ -321,7 +322,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75900000" />
+    <option name="totallyTimeSpent" value="76597000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -336,7 +337,7 @@
     <frame x="0" y="-1" width="1366" height="768" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976852" visible="true" weight="0.3189394" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976852" visible="true" weight="0.3242424" />
       <window_info id="Structure" order="1" sideWeight="0.5023148" side_tool="true" weight="0.27651516" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -774,8 +775,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/seccion8_0.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="371" column="30" lean-forward="true" selection-start-line="371" selection-start-column="30" selection-end-line="371" selection-end-column="30" />
+        <state relative-caret-position="235">
+          <caret line="414" column="26" lean-forward="true" selection-start-line="414" selection-start-column="26" selection-end-line="414" selection-end-column="26" />
         </state>
       </provider>
     </entry>

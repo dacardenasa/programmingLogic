@@ -298,6 +298,8 @@ divisores( numero );
 
 // 16 Escribir un programa que escriba en pantalla los divisores comunes de dos números dados
 
+/*
+
 function divisores( numero ) {
 
     let p = numero;
@@ -370,6 +372,48 @@ numComunes = divisoresComunes( arrayNumber, arrayNumber2 );
 document.write('Los divisores  comunes de ' + numero + ' y ' + numero2 + ' son: ')
 
 imprimirNumeros( numComunes );
+
+*/
+
+// 17 Escribir un programa que nos diga si un número dado es primo (no es divisible por ninguno otro número que no sea él mismo o la unidad)
+
+function divisores( numero ) {
+
+    let p = numero;
+
+    let contador = 0;
+
+    while ( p > 0 ){
+
+        if( numero % p === 0) {
+
+            contador = contador + 1;
+
+        }
+
+        p = p - 1;
+
+    }
+
+    if ( contador > 2 ) {
+
+        return 'EL numero ' + numero + ' no es primo';
+
+    } else {
+
+        return  'El numero ' + numero + ' es primo';
+    }
+
+
+
+}
+
+let numero = parseInt(prompt('Ingresa un numero para evaluar si es primo: '));
+
+let resultado = divisores( numero );
+
+document.write(resultado);
+
 
 
 
