@@ -377,6 +377,8 @@ imprimirNumeros( numComunes );
 
 // 17 Escribir un programa que nos diga si un número dado es primo (no es divisible por ninguno otro número que no sea él mismo o la unidad)
 
+/*
+
 function divisores( numero ) {
 
     let p = numero;
@@ -415,7 +417,53 @@ let resultado = divisores( numero );
 document.write(resultado);
 
 
+ */
 
+/*
 
+function simpleArraySum(ar) {
 
+    let resultadoSuma = 0;
 
+    for (let i = 0; i < ar.length; i++) {
+
+        resultadoSuma = resultadoSuma + ar[i];
+
+    }
+
+    return resultadoSuma;
+}
+
+let array = [1,2,3,4,10,11];
+
+let resultado = simpleArraySum( array );
+
+document.write(resultado);
+
+ */
+
+function compareTriplets(a, b) {
+
+    let winAlice = 0;
+    let winBob = 0;
+    let arrayPlayers = [];
+
+    for (let i = 0; i < a.length; i++) {
+
+        if (a[i] > b[i]) winAlice = winAlice + 1;
+        else if (a[i] < b[i]) winBob = winBob + 1;
+
+    }
+
+    arrayPlayers.push(winAlice, winBob);
+
+    return arrayPlayers;
+}
+
+let array = [5,6,7];
+
+let array2 = [3,6,10];
+
+let resultado = compareTriplets( array, array2 );
+
+console.log(resultado);
