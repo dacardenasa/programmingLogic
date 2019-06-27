@@ -442,6 +442,8 @@ document.write(resultado);
 
  */
 
+/*
+
 function compareTriplets(a, b) {
 
     let winAlice = 0;
@@ -467,3 +469,40 @@ let array2 = [3,6,10];
 let resultado = compareTriplets( array, array2 );
 
 console.log(resultado);
+
+ */
+
+function diagonalDifference(arr) {
+    // Write your code here
+
+    let sumLeftDiag = arr[0][0] + arr[1][1] + arr[2][2];
+
+    let sumRightDiag = arr[0][2] + arr[1][1] + arr[2][0];
+
+    let difBetweenDiag = sumRightDiag - sumLeftDiag;
+
+    return difBetweenDiag;
+}
+
+let nuevoArray = new Array(3);
+
+nuevoArray[0] = new Array(3);
+
+nuevoArray[1] = new Array(3);
+
+nuevoArray[2] = new Array(3);
+
+for( let i = 0; i < nuevoArray.length; i++) {
+
+    for( let j = 0; j < nuevoArray.length; j++) {
+
+        nuevoArray[i][j] = parseInt(prompt('Digita un numero: '));
+
+    }
+
+}
+
+let resultado = diagonalDifference( nuevoArray );
+
+document.write(resultado);
+
